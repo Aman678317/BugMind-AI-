@@ -1,0 +1,6 @@
+FROM node:20-alpine
+WORKDIR /sandbox
+# Pre-warm with common dependencies if needed
+# RUN npm install -g typescript jest
+USER node
+CMD ["node", "-v"]

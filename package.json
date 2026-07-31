@@ -1,0 +1,11 @@
+{
+  "name": "bugmind-ai",
+  "version": "1.0.0",
+  "description": "BugMind AI Monorepo",
+  "private": true,
+  "scripts": {
+    "dev:web": "npm run dev --prefix apps/web",
+    "build:web": "npm run build --prefix apps/web",
+    "start:web": "npm run start --prefix apps/web"
+  }
+}

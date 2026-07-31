@@ -1,0 +1,6 @@
+FROM python:3.11-slim
+WORKDIR /sandbox
+# Pre-warm with common dependencies
+RUN pip install pytest
+USER nobody
+CMD ["python", "--version"]
